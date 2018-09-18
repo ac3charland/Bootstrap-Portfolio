@@ -1,0 +1,71 @@
+body {
+    background-image: url("concrete_seamless.png");
+}
+
+.footer-styling {
+    /* position: fixed;
+    height: 4em; */
+    /* width: 100%; */
+    bottom: 0;
+    padding-top: 1em;
+    margin-top: 1em;
+    color: white;
+    padding: 1em;
+    background-color: #666666;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+}
+
+.headimage {
+    max-width: 30%;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 30px;
+}
+
+.page-title {
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.page-header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+.brand {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+.photo-tile:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.portfolio-label {
+    position: relative;
+    bottom: 30%;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    max-width: 400px;
+}
+
+.navbar {
+    padding: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: white;
+}
