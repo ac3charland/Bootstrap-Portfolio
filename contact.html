@@ -49,17 +49,15 @@
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-10">
-                            <form>
+                            <form action="mailto:ac3charland@gmail.com" method="post" enctype="text/plain">
                                 <div class="form-group">
-                                    <label for="validationCustom01">Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="John Appleseed">
-                                    <label class="mt-2" for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" name="Name" placeholder="John Appleseed">
+                                    <label class="mt-2" for="email">Email address</label>
+                                    <input type="email" class="form-control" id="email" name="Email" aria-describedby="emailHelp"
                                         placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">I promise to sell your email to the
-                                        highest bidder.</small>
                                     <label class="mt-2" for="comment">Message:</label>
-                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    <textarea class="form-control" rows="5" id="comment" name="Message"></textarea>
                                 </div>
                                 <button type="submit" class="btn submit mt-2 mb-4">Submit</button>
                             </form>
